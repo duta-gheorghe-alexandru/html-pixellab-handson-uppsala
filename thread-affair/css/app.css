@@ -362,6 +362,8 @@ a {
   margin-bottom: 16px;
   text-transform: uppercase;
   padding: 50px;
+  color: #aeaeae;
+  font-weight: 300;
 }
 
 .footer-menu {
@@ -380,7 +382,7 @@ a {
 
 .footer-support {
   display: inline-block;
-  margin-right: 128px;
+  margin-right: 136px;
 }
 
 .footer-support ul {
@@ -403,6 +405,24 @@ a {
 .footer-contact {
   display: inline-block;
   vertical-align: bottom;
+}
+
+.footer-contact h1 {
+  margin-bottom: 8px;
+}
+
+.footer-contact h1 span {
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-contact p {
+  text-transform: initial;
+  line-height: 22px;
+}
+
+.footer-contact a[href^='mailto:'] {
+  color: #ff6b6b;
 }
 
 .footer-secondary {
