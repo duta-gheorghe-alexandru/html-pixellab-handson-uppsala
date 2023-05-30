@@ -305,6 +305,19 @@ a {
   font-size: 32px;
 }
 
+.header-cart .cart-qty {
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  height: 21px;
+  padding: 0 8px;
+  border-radius: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-primary {
   text-align: center;
 }
@@ -332,6 +345,7 @@ a {
   background: #ff6b6b;
   color: #fff;
 }
+
 /* header */
 
 /* footer */
