@@ -367,6 +367,7 @@ a {
 .footer-menu {
   display: flex;
   gap: 60px;
+  margin-bottom: 40px;
 }
 
 .footer-menu ul {
@@ -379,12 +380,17 @@ a {
 
 .footer-support {
   display: inline-block;
+  margin-right: 128px;
 }
 
 .footer-support ul {
   display: flex;
   gap: 36px;
   text-align: center;
+}
+
+.footer-support a {
+  display: block;
 }
 
 .footer-support [class*='fa-'] {
