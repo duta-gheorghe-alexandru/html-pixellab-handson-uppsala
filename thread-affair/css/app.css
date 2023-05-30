@@ -305,17 +305,24 @@ a {
   font-size: 32px;
 }
 
+.header-cart a {
+  position: relative;
+}
+
 .header-cart .cart-qty {
   background: #ff6b6b;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   height: 21px;
-  padding: 0 8px;
+  padding: 0 7px;
   border-radius: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  top: -10px;
+  left: 24px;
+  position: absolute;
 }
 
 .header-primary {
@@ -349,4 +356,59 @@ a {
 /* header */
 
 /* footer */
+.footer-primary {
+  background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat right
+    center / 477px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  padding: 50px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-menu ul {
+  width: 128px;
+}
+
+.footer-menu li {
+  margin-bottom: 8px;
+}
+
+.footer-support {
+  display: inline-block;
+}
+
+.footer-support ul {
+  display: flex;
+  gap: 36px;
+  text-align: center;
+}
+
+.footer-support [class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 36px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-contact {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.footer-secondary {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.footer-secondary p {
+  margin-bottom: 8px;
+}
+
+.footer-secondary p img {
+  vertical-align: bottom;
+}
 /* /footer */
