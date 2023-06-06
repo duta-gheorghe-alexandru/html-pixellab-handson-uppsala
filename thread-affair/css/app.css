@@ -480,5 +480,49 @@ a {
 .product-tile {
   text-align: center;
   font-weight: 300;
+  font-size: 18px;
+}
+
+.product-tile .product-tile-header {
+  margin-bottom: 18px;
+}
+
+.product-tile .product-tile-image {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.product-tile .product-tile-title {
+  font-size: 24px;
+}
+
+.product-tile .product-tile-title span {
+  font-weight: 500;
+}
+
+.product-tile .product-tile-title span:nth-child(1) {
+  color: #000;
+}
+
+.product-tile .product-tile-subtitle {
+  line-height: 22px;
+}
+
+.product-tile .product-tile-pricing {
+  line-height: 29px;
+}
+
+.product-tile .product-catalog-price {
+  display: block;
+  text-decoration: line-through;
+}
+
+.product-tile .product-price {
+  font-size: 24px;
+}
+
+.product-tile .product-price span {
+  color: #ff6b6b;
+  font-weight: 500;
 }
 /* /catalog */
