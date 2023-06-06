@@ -510,6 +510,7 @@ a {
 
 .product-tile .product-tile-pricing {
   line-height: 29px;
+  margin-bottom: 18px;
 }
 
 .product-tile .product-catalog-price {
@@ -524,5 +525,22 @@ a {
 .product-tile .product-price span {
   color: #ff6b6b;
   font-weight: 500;
+}
+
+.product-tile .product-a2c {
+  background: none;
+  border: 2px solid #ff6b6b;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  padding: 10px 16px;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.product-tile .product-a2c:hover {
+  background-color: #ff6b6b;
+  color: #fff;
 }
 /* /catalog */
