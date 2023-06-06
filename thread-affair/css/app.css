@@ -503,6 +503,24 @@ a {
   text-transform: lowercase;
 }
 
+.home-social ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  color: #5e5e5e;
+  font-size: 24px;
+}
+
+.home-social a {
+  display: inline-flex;
+  border: 2px solid #5e5e5e;
+  border-radius: 50%;
+  width: 64px;
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
+}
+
 .home-payment ul {
   display: flex;
   width: 320px;
