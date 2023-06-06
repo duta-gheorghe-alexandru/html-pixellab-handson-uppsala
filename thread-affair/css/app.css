@@ -440,6 +440,31 @@ a {
 /* /footer */
 
 /* homepage */
+.banner-main {
+  height: 572px;
+  background: #000 url('../images/banners/banner-01.jpg') no-repeat center
+    center / cover;
+  color: #fff;
+  margin-bottom: 96px;
+}
+
+.banner-main .banner-main-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 50px;
+  position: relative;
+}
+
+.banner-main .banner-copy {
+  position: absolute;
+  bottom: 18px;
+  left: 50px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
 .content-main > section {
   margin-bottom: 64px;
 }
@@ -468,6 +493,14 @@ a {
 .catalog-preview .product-tiles {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.catalog-preview .catalog-ctas {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: lowercase;
 }
 
 .home-payment ul {
