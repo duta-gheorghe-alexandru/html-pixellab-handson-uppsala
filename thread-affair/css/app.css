@@ -440,27 +440,27 @@ a {
 /* /footer */
 
 /* homepage */
-.content-main section {
+.content-main > section {
   margin-bottom: 64px;
 }
 
-.content-main section header {
+.content-main > section > header {
   font-weight: 300;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.content-main section header h1 {
+.content-main > section > header > h1 {
   font-size: 40px;
   color: #292929;
 }
 
 /* do not use v */
-.content-main section header h1 span {
+.content-main > section > header > h1 span {
   font-weight: 500;
 }
 
-.content-main section header p {
+.content-main > section > header > p {
   line-height: 24px;
   margin-top: 16px;
 }
