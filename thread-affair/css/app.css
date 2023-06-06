@@ -440,6 +440,10 @@ a {
 /* /footer */
 
 /* homepage */
+.content-main section {
+  margin-bottom: 64px;
+}
+
 .content-main section header {
   font-weight: 300;
   text-align: center;
@@ -456,6 +460,11 @@ a {
   font-weight: 500;
 }
 
+.content-main section header p {
+  line-height: 24px;
+  margin-top: 16px;
+}
+
 .home-payment ul {
   display: flex;
   width: 320px;
@@ -466,3 +475,10 @@ a {
 }
 
 /* /homepage */
+
+/* catalog */
+.product-tile {
+  text-align: center;
+  font-weight: 300;
+}
+/* /catalog */
